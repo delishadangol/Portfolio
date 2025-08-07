@@ -1,0 +1,97 @@
+
+
+
+  return (
+    <div className="p-6 max-w-5xl mx-auto space-y-8">
+      <header className="text-center">
+        <h1 className="text-4xl font-bold">[Your Name]</h1>
+        <p className="text-lg mt-2">Flutter Developer</p>
+        <p className="text-sm text-gray-500">Email: your.email@example.com | Phone: +977-98XXXXXXXX</p>
+        <div className="flex justify-center space-x-4 mt-4">
+          <a href="https://github.com/yourusername" className="underline">GitHub</a>
+          <a href="https://linkedin.com/in/yourprofile" className="underline">LinkedIn</a>
+          <a href="https://yourwebsite.com" className="underline">Portfolio</a>
+        </div>
+      </header>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <p>
+          I am a passionate Flutter developer with [X+] years of experience in
+          building high-performance, cross-platform mobile applications. I
+          specialize in creating seamless UI/UX and robust backend integrations
+          using Flutter, Firebase, and REST APIs.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Technical Skills</h2>
+        <ul className="list-disc list-inside space-y-1">
+          <li>Dart, Flutter, Firebase, REST API, GraphQL</li>
+          <li>Provider, Bloc, Riverpod, GetX</li>
+          <li>Firebase (Auth, Firestore, Storage, Messaging)</li>
+          <li>Git, GitHub, Android Studio, VS Code</li>
+          <li>Figma, Postman, Codemagic</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Featured Projects</h2>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Card>
+            <CardContent className="space-y-2 p-4">
+              <h3 className="text-xl font-semibold">QuickTask</h3>
+              <p>Freelance job marketplace app with chat and payment system.</p>
+              <a href="#" className="text-blue-500 underline">GitHub</a>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="space-y-2 p-4">
+              <h3 className="text-xl font-semibold">FoodDash</h3>
+              <p>Multi-vendor food delivery app with tracking and admin panel.</p>
+              <a href="#" className="text-blue-500 underline">GitHub</a>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardContent className="space-y-2 p-4">
+              <h3 className="text-xl font-semibold">MyFinance</h3>
+              <p>Personal finance tracker with charts and reporting features.</p>
+              <a href="#" className="text-blue-500 underline">GitHub</a>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
+        <ul className="space-y-2">
+          <li>
+            <strong>Flutter Developer Intern</strong> – [Company Name] (Jan 202X –
+            June 202X)
+          </li>
+          <li>
+            <strong>Freelancer</strong> – Upwork / Fiverr (202X – Present)
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Education</h2>
+        <p>Bachelor in Computer Engineering – [University Name], [Year]</p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Certifications</h2>
+        <ul className="list-disc list-inside">
+          <li>Google Flutter Development Bootcamp – [Platform]</li>
+          <li>Firebase in a Weekend – Google Developers</li>
+          <li>Clean Code with Flutter – Udemy</li>
+        </ul>
+      </section>
+
+      <footer className="text-center text-sm text-gray-500 mt-10">
+        &copy; {new Date().getFullYear()} [Your Name] – Flutter Developer Portfolio
+      </footer>
+    </div>
+  );
+}
